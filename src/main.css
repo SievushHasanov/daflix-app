@@ -1,0 +1,9 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s ease-in;
+}
+
+a:hover {
+  color: #c9c7c7;
+}
