@@ -18,7 +18,7 @@ import {
 } from '../../../services/kinopoiskApi';
 import ErrorMessage from '../../ui/ErrorMessage';
 import MovieCard from '../../ui/MovieCard';
-import VideoPLayer from '../../ui/VideoPLayer/VideoPLayer';
+import VideoPlayer from '../../ui/VideoPlayer';
 
 export default function MovieDetails() {
   const { id } = useParams();
@@ -188,7 +188,7 @@ export default function MovieDetails() {
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5">Смотреть онлайн</Typography>
-          <VideoPLayer />
+          <VideoPlayer />
         </Grid>
       </Grid>
       {responseSequelsAndPrequels.data && (

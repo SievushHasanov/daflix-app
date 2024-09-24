@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 import styles from './VideoPlayer.module.css';
 
-export default function VideoPLayer() {
+export default function VideoPlayer() {
   const [scriptHtml, setScriptHtml] = useState('');
 
   useEffect(() => {
